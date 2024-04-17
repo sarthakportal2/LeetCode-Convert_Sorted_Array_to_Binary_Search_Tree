@@ -1,7 +1,7 @@
 class Solution {
 public:
-//T(C(N)==O(1)) and S(C(N)=O(N) as it requires non conigous memory allocation recursively
-    TreeNode* sortedArrayToBST(vector<int>& nums) {//Sortedarrto Bst Conversio funct 
+//T(C(N)==O(1)) and S(C(N)=O(N) as it requires non contigous memory allocation recursively
+    TreeNode* sortedArrayToBST(vector<int>& nums) {//Sorted arrayto Bst Conversio funct 
         if(nums.size()==0)return NULL;//Initalizing arrays size
         return BstNode(nums,0,nums.size()-1);}//printing converted Bst Intialized Root Node
 
